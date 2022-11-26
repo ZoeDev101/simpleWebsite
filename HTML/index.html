@@ -5,16 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>website</title>
+    <!-- browser tab icon -->
     <link rel="ICON" href="/Img/whale-s.png" type="image/x-icon" />
     <link rel="ICON" href="/Img/whale-s.png" type="image/ico" />
+    <!--CSS -->
+    <link rel="stylesheet" type="text/css" href="/CSS/index.css" />
+    <!--Javascript -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="/Javascript/index.js"></script>
   </head>
   <body>
     <!-- 導覽列 -->
-    <nav class="bg-gray-800">
+    <nav class="bg-gray-800 h-14">
       <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-        <div class="relative flex h-16 items-center justify-between">
+        <div class="relative flex h-14 items-center justify-between">
           <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
             <!-- Mobile menu button-->
             <button
@@ -242,5 +245,117 @@
         </div>
       </div>
     </nav>
+
+    <section>
+      <div class="container mx-auto bg-white">
+        <div class="flex flex-wrap">
+          <div class="w-full sm:w-2/12">
+            <h2 class="h-12 p-2 bg-amber-100 text-pink-900 text-center text-xl">
+              所有商品
+            </h2>
+            <ul>
+              <li class="p-4" style="border-bottom: 1px dashed #ccc">
+                <span class="flex justify-between items-center dropdown"
+                  >上衣類
+                  <svg
+                    class="svg-icon"
+                    width="16px"
+                    height="16px"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 5l7 7-7 7"
+                    ></path></svg
+                ></span>
+                <ul class="hidden">
+                  <li class="pt-4 px-6 font-medium">
+                    <a href="#">長袖上衣</a>
+                  </li>
+                  <li class="pt-4 px-6 font-medium"><a href="#">大學T</a></li>
+                  <li class="pt-4 px-6 font-medium"><a href="#">帽T</a></li>
+                  <li class="pt-4 px-6 font-medium"><a href="#">針織衫</a></li>
+                  <li class="pt-4 px-6 font-medium"><a href="#">短T</a></li>
+                </ul>
+              </li>
+              <li
+                class="p-4"
+                width="16px"
+                height="16px"
+                style="border-bottom: 1px dashed #ccc"
+              >
+                <span class="flex justify-between items-center dropdown"
+                  >襯衫類
+                  <svg
+                    class="svg-icon"
+                    width="16px"
+                    height="16px"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 5l7 7-7 7"
+                    ></path></svg
+                ></span>
+                <ul class="hidden">
+                  <li class="pt-4 px-6 font-medium">
+                    <a href="#">休閒襯衫</a>
+                  </li>
+                  <li class="pt-4 px-6 font-medium">
+                    <a href="#">格紋襯衫</a>
+                  </li>
+                  <li class="pt-4 px-6 font-medium">
+                    <a href="#">商務襯衫</a>
+                  </li>
+                  <li class="pt-4 px-6 font-medium">
+                    <a href="#">雪紡衫</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="p-4" style="border-bottom: 1px dashed #ccc">
+                <span class="flex justify-between items-center dropdown"
+                  >下身類
+                  <svg
+                    class="svg-icon"
+                    width="16px"
+                    height="16px"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 5l7 7-7 7"
+                    ></path></svg
+                ></span>
+                <ul class="hidden">
+                  <li class="pt-4 px-6 font-medium"><a href="#">休閒褲</a></li>
+                  <li class="pt-4 px-6 font-medium"><a href="#">牛仔褲</a></li>
+                  <li class="pt-4 px-6 font-medium"><a href="#">寬褲</a></li>
+                  <li class="pt-4 px-6 font-medium"><a href="#">短褲</a></li>
+                  <li class="pt-4 px-6 font-medium"><a href="#">家居褲</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!-- sm:w-3/12 -->
+          <div class="w-full sm:w-10/12 py-10 px-4 sm:px-20"></div>
+        </div>
+      </div>
+    </section>
   </body>
+  <script src="/Javascript/index.js"></script>
 </html>
